@@ -42,6 +42,7 @@ void draw(){
 fill(155);
 background(0);
 blue.move();
+
    blue.drawspaceship();
    for (int i = 0; i < enemies.size (); i = i+1){
      Enemy e = (Enemy)enemies.get(i);
